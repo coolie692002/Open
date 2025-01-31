@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2C8F657A-9B5B-411A-8730-3031A9E59ACD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "request", "request", "{E63983FF-FE42-4C57-A2DC-565AD3D061A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{03ECADC5-DD67-4552-9556-7F1491128749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E6600318-B81F-4CDB-8BF7-242B75C49D63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspire", "aspire", "{393719FB-3005-4DF8-93EC-7C53912E782E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateways", "gateways", "{63F15E6B-A3D1-448E-97B4-B481ABBA7D96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{30CA4E71-4512-493D-9776-0F29C15D3BDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{46B2E8AE-091B-47EB-AC1C-EA2C6C6BB2BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{36648B34-93B4-4094-8F8E-DF4092EE1406}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "course", "course", "{33EDDE9D-A8ED-4B3A-B5E7-89C409542F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open.Course.Api", "src\services\course\Open.Course.Api\Open.Course.Api.csproj", "{7935DB30-C8DB-462B-81F7-2CA0B2CD37A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{C356E86C-F445-4232-ACC9-09D9FE09FD8F}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.gitleaks.toml = .gitleaks.toml
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		docker-compose.override.yml = docker-compose.override.yml
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{393719FB-3005-4DF8-93EC-7C53912E782E} = {03ECADC5-DD67-4552-9556-7F1491128749}
+		{63F15E6B-A3D1-448E-97B4-B481ABBA7D96} = {03ECADC5-DD67-4552-9556-7F1491128749}
+		{30CA4E71-4512-493D-9776-0F29C15D3BDB} = {03ECADC5-DD67-4552-9556-7F1491128749}
+		{46B2E8AE-091B-47EB-AC1C-EA2C6C6BB2BF} = {03ECADC5-DD67-4552-9556-7F1491128749}
+		{36648B34-93B4-4094-8F8E-DF4092EE1406} = {03ECADC5-DD67-4552-9556-7F1491128749}
+		{33EDDE9D-A8ED-4B3A-B5E7-89C409542F28} = {36648B34-93B4-4094-8F8E-DF4092EE1406}
+		{7935DB30-C8DB-462B-81F7-2CA0B2CD37A4} = {33EDDE9D-A8ED-4B3A-B5E7-89C409542F28}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7935DB30-C8DB-462B-81F7-2CA0B2CD37A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7935DB30-C8DB-462B-81F7-2CA0B2CD37A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7935DB30-C8DB-462B-81F7-2CA0B2CD37A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7935DB30-C8DB-462B-81F7-2CA0B2CD37A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
